@@ -34,16 +34,21 @@ Run DiE: *die [FileName] or diec [FileName] or diel [FileName]*
 
 Qt framework has to be installed on the system.
 
-(Ubuntu)Install Qt Framework: **sudo apt-get install --quiet --assume-yes build-essential qt5-default qtbase5-dev qttools5-dev-tools qtscript5-dev libqt5svg5-dev**
-
-Clone project: git clone --recursive https://github.com/horsicq/DIE-engine.git
-
-- chmod a+x configure
-- ./configure
-- make
+Clone project: git clone --recursive ht 
+##Clone project: 
+- git clone --recursive https://github.com/horsicq/DIE-engine.git
+- cd DIE-engine/
+##Then, run the following commands;
+- sudo dnf -y install qt5-devel gcc gcc-c++ bison flex gtk3-devel rpm-build libtool c-ares-devel qt5-qtbase-devel qt5-qtmultimedia-devel qt5-linguist desktop-file-utils createrepo glib2-devel perl perl-devel tcpdump libcap-devel libssh-devel krb5-devel lz4 libxml2-devel systemd-devel qt5-qtscript qt5-qtscript-devel 
+- sudo chmod a+x configure
+- sudo ./configure
+- sudo make
 - sudo make install
 
-Run DiE: *die [FileName] or diec [FileName] or diel [FileName]*
+Run DiE: 
+- *die [FileName]* ## or 
+- *diec [FileName]* ## or 
+- *diel [FileName]*
 
 # How to build on OSX
 
